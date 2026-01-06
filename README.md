@@ -1,6 +1,8 @@
 # easy-tcp
 
-快速接入使用:
+快速接入使用 pom.xml:
+
+
 <repositories>
   <repository>
     <id>jitpack.io</id>
