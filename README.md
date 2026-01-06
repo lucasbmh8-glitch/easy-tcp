@@ -43,12 +43,7 @@ public class ServerTest {
                 .port(7334).delimiter("@").md5Key("abc")
                 .serviceBusiness(service)
                 .build();
-        try{
-            server.run();
-            Thread.sleep(4000);
-        }catch (Exception ex){
-            ex.printStackTrace();
-        }
+    
 
         //模拟服务发送消息给一个 客户端
 
