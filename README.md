@@ -1,5 +1,21 @@
 # easy-tcp
-快速接入使用，客户端：
+
+快速接入使用:
+<repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+
+<dependency>
+  <groupId>com.github.lucasbmh8-glitch</groupId>
+  <artifactId>easy-tcp</artifactId>
+  <version>v0.1.0</version>
+</dependency>
+
+
+客户端：
 public class ClientTest {
 
     public static void main(String args[]){
